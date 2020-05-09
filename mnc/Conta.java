@@ -1,25 +1,27 @@
-class Conta {
+package mnc;
+
+public class Conta {
 
     private int numero;
     private double saldo;
 
-    Conta(int num) {
+    public Conta(int num) {
         this.numero = num;
     }
 
-    int getNumero() {
+    public int getNumero() {
         return this.numero;
     }
 
-    double getSaldo() {
+    public double getSaldo() {
         return this.saldo;
     }
 
-    void creditar(double valor) {
+    public void creditar(double valor) {
         this.saldo += valor;
     }
 
-    void debitar(double valor) {
+    public void debitar(double valor) {
         this.saldo -= valor;
         if (this.saldo < 0)
             this.saldo -= 10;

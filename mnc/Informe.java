@@ -1,8 +1,10 @@
+package mnc;
+
 import java.util.ArrayList;
 
-class Informe {
+public class Informe {
 
-    double montante(Cliente c) {
+    public double montante(Cliente c) {
 
         ArrayList<Conta> carteira = c.getCarteira();
 
@@ -18,7 +20,7 @@ class Informe {
 
     }
 
-    String categoria(Cliente c) {
+    public String categoria(Cliente c) {
 
         double total = this.montante(c);
         String categoria = "PADRAO";

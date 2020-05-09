@@ -1,15 +1,17 @@
+package mnc;
+
 import java.util.ArrayList;
 
-class Cliente {
+public class Cliente {
 
-    String nome;
+    public String nome;
     ArrayList<Conta> carteira = new ArrayList<Conta>();
 
-    void adicionaConta(final Conta c) {
+    public void adicionaConta(final Conta c) {
         this.carteira.add(c);
     }
 
-    ArrayList<Conta> getCarteira() {
+    public ArrayList<Conta> getCarteira() {
         return this.carteira;
     }
 
