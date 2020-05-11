@@ -1,0 +1,7 @@
+{
+    "java.dependency.syncWithFolderExplorer": true,
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/amsilva/_myprojects/vscode_works/miniconta/**/*.jar"
+    ]
+}
